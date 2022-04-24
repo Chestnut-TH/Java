@@ -1,0 +1,8 @@
+#dockerビルド
+docker build ./ -t spdc
+
+#dockerビルドアプリ起動
+docker run -p 8080:8080 -t spdc
+
+#docker停止
+docker system prune -a
